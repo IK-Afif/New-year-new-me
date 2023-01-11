@@ -105,7 +105,7 @@ main{
     display: flex;
     gap: 10px;
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 200px;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -122,6 +122,64 @@ main{
 }
 
 /* books to read */
+
+.books{
+    margin-bottom: 135px;
+}
+
+.books p{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.books-head{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.books-container{
+    margin: 0 15%;
+    
+}
+
+.books img{
+    height: 120px;
+    width: 70px;
+}
+
+.b-cont1{
+    display: flex;
+    text-align: center;
+}
+
+.b-cont2{
+    text-align: center;
+    display: flex; 
+} 
+
+.b-cont3{
+    display: flex;
+    text-align: center;
+}
+
+.book-sec{
+    /* background: white; */
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    padding: 30px;
+    height: auto;
+    width: 400px;
+}
+
+.book-description{
+    padding-top: 20px;
+    text-align: right;
+} 
 
 
 
